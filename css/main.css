@@ -1,0 +1,330 @@
+.parent {
+    width: 600px;
+    height: 800px;
+    border: 1px solid #fff001;
+    margin: 50px auto;
+    position: relative;
+}
+
+.parent .one {
+    width: 90%;
+    height: 21%;
+    position: absolute;
+    left: 5%;
+    top: 2%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.parent .two {
+    width: 90%;
+    height: 21%;
+    position: absolute;
+    left: 5%;
+    top: 2%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: orangered;
+    opacity: 0.7;
+}
+
+.parent .three {
+    width: 40%;
+    height: 35%;
+    background-color: #122333;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    z-index: 3;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+
+.parent .three h2 {
+    text-align: left;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    letter-spacing: 8px;
+
+}
+
+.parent .three span {
+    background-color: orangered;
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    left: 15%;
+    top: 45%;
+}
+
+.parent .three .first {
+    position: absolute;
+    left: 15%;
+    top: 45%;
+    color: #fff;
+}
+
+.first .mazen {
+    color: #81b73e;
+    position: absolute;
+    left: -20%;
+    top: 39%;
+}
+
+.parent .three .second {
+    position: absolute;
+    left: 15%;
+    top: 55%;
+    color: #fff;
+}
+
+.second .mazen {
+    color: #81b73e;
+    position: absolute;
+    left: -26%;
+    top: 40%;
+}
+
+.parent .three .third {
+    position: absolute;
+    left: 15%;
+    top: 65%;
+    color: #fff;
+}
+
+.third .mazen {
+    color: #81b73e;
+    position: absolute;
+    left: -24%;
+    top: 35%;
+}
+
+.parent .three .register {
+    text-transform: capitalize;
+    position: absolute;
+    left: 20%;
+    top: 80%;
+    width: 60%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: orangered;
+    border-radius: 5px;
+}
+
+.parent .four {
+    width: 30%;
+    height: 15%;
+    border: 1px solid orangered;
+    position: absolute;
+    left: 60%;
+    top: 25%;
+    padding: 10px;
+}
+
+.parent .five {
+    width: 90%;
+    height: 25%;
+    position: absolute;
+    left: 5%;
+    top: 48%;
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.parent .five>div {
+    background-color: #f2f8fa;
+    height: 100%;
+    width: calc(95% / 3);
+}
+
+.five .first .head {
+    color: orangered;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    font-weight: bold;
+}
+
+.five .first h3 {
+    text-align: left;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    color: #122333;
+}
+
+.five .first .p-one {
+    width: 26%;
+    height: 20%;
+    color: #ddD;
+    position: absolute;
+    left: 4%;
+    top: 42%;
+}
+
+.five .first .learn {
+    color: orangered;
+    position: absolute;
+    left: 5%;
+    top: 80%;
+}
+
+.five .second .head {
+    color: orangered;
+    position: absolute;
+    left: 40%;
+    top: 5%;
+    font-weight: bold;
+}
+
+.five .second h3 {
+    text-align: left;
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    color: #122333;
+}
+
+.five .second .p-one {
+    width: 26%;
+    height: 20%;
+    color: #ddD;
+    position: absolute;
+    left: 40%;
+    top: 42%;
+}
+
+.five .second .learn {
+    color: orangered;
+    position: absolute;
+    left: 40%;
+    top: 80%;
+}
+
+.five .third .head {
+    color: orangered;
+    position: absolute;
+    left: 75%;
+    top: 5%;
+    font-weight: bold;
+}
+
+.five .third h3 {
+    text-align: left;
+    position: absolute;
+    left: 75%;
+    top: 10%;
+    color: #122333;
+}
+
+.five .third .p-one {
+    width: 26%;
+    height: 20%;
+    color: #ddD;
+    position: absolute;
+    left: 75%;
+    top: 42%;
+}
+
+.five .third .learn {
+    color: orangered;
+    position: absolute;
+    left: 75%;
+    top: 80%;
+}
+
+.parent .six {
+    width: 90%;
+    height: 25%;
+    position: absolute;
+    left: 5%;
+    top: 74%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.parent .seven {
+    width: 90%;
+    height: 25%;
+    position: absolute;
+    left: 5%;
+    top: 74%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #122333;
+    opacity: 0.7;
+}
+
+.eight h3 {
+    position: absolute;
+    left: 10%;
+    top: 75%;
+    color: #fff;
+    z-index: 2;
+    text-transform: capitalize;
+}
+
+.eight span {
+    width: 70px;
+    height: 3px;
+    background-image: linear-gradient(to right, orangered 50%, #122333 50%);
+    position: absolute;
+    left: 10%;
+    top: 82%;
+}
+
+.eight p {
+    width: 45%;
+    height: 35%;
+    color: #fff;
+    position: absolute;
+    left: 10%;
+    top: 81%;
+}
+
+.eight .learn {
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: orangered;
+    position: absolute;
+    left: 15%;
+    top: 91%;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+
+.eight img {
+    width: 35%;
+    height: 23%;
+    position: absolute;
+    left: 57%;
+    top: 75%;
+}
